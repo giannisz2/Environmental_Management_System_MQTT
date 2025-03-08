@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="32dp">
+
+
+    <EditText
+        android:id="@+id/ip_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter IP Address"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/port_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Port"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ip_edittext"/>
+
+    <RadioGroup
+        android:id="@+id/topic_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/port_edittext"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+
+        <RadioButton
+            android:id="@+id/topic1_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic 1"
+            android:checked="true"/>
+
+
+        <RadioButton
+            android:id="@+id/topic2_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic 2"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

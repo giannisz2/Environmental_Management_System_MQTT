@@ -1,0 +1,15 @@
+<script>
+    let riskdata = [];
+
+    fetch('fetch_data.php')
+        .then(response => response.json())
+        .then(data => {
+            riskdata = data;
+            console.log("Data loaded:", riskdata);
+        })
+        .catch(error => console.error('Error:', error));
+
+    // Access the riskdata variable in another script
+</script>
+
+

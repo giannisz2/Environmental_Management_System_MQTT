@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sensor Dashboard</title>
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR2HdISFdCcXFV36iy0y2fplpt3Yo2Jww"></script>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js" defer></script>
+    <script src="src/data.js" defer></script>
+    <script src="src/info_marker_over.js" defer></script>
+    <script src="src/mqtt_fetch.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="src/main.css">
+  </head>
+  <body>
+    <div id="map">
+    <script>
+        window.onload = function() {
+            initMap()
+            mqtt_fetch();
+        }
+    </script>
+    </div>
+  </body>
+</html>

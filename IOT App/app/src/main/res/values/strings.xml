@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">I.O.T. App</string>
+    <string name="connect">Connect</string>
+    <string name="server_ip">Server IP</string>
+    <string name="exit">Exit</string>
+    <string name="port">Port</string>
+    <string name="automatic_gps">Automatic GPS</string>
+    <string name="set">SET</string>
+    <string name="back">BACK</string>
+    <string name="manual_mode">Manual Mode</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+
+</resources>
